@@ -13,6 +13,22 @@ Alamofire API Calling Example
 - Body Parameters
 - Rechability POD and implementation
 
+# POD commands and guideline
+
+(1) Open terminal and go to location of your xcodeproj
+
+(2) In terminal fire this command -> $pod init
+
+(3) Open podfile
+
+(4) Add below line of code befor 'end'
+
+    pod 'Alamofire'
+    pod 'ReachabilitySwift', '~> 3'
+    
+(5) Save and close podfile
+
+(6) In terminal fire this command -> $pod install
 
 # API Calling Swift 4 code
 
