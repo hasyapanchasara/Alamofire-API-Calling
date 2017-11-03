@@ -12,16 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
        
         self.API_Formation_Function("email@email.com", password: "password12345")
     }
 
     
     func API_Formation_Function(_ userName : String , password : String) {
-        
-        
-        
+       
         EMReqeustManager.sharedInstance.apiLogin(userName, password: password) {
             (feedResponse) -> Void in
             
@@ -40,22 +37,15 @@ class ViewController: UIViewController {
                     
                     print(responseModel)
                     
-                    print("Username and password is correct")
-                 
-                    
                 }
             }
         }
        
-        
-      
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

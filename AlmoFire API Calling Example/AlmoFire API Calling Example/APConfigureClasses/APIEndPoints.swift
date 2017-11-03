@@ -10,16 +10,16 @@ import Foundation
 
 class APIEndPoints {
     static func getBaseURL() -> String {
-        return "http://enmoji.demo.brainvire.com/api/"
+        return "http://APIEndPointURL" // API End Point URL
         
     }
 
-    static func getVersion1APIURL() -> String {
+    static func getAPIVersion() -> String {
         return getBaseURL() + "v1/"
     }
 
     static func getLoginURL() -> String {
-        return getVersion1APIURL() + "login"
+        return getAPIVersion() + "login"
     }
     
 }

@@ -1,6 +1,6 @@
 //
 //  GLOBAL.swift
-//  HasyaHP
+//  AlmoFire API Calling Example
 //
 //  Created by Hasya.Panchasara on 01/11/17.
 //  Copyright © 2017 Hasya Panchasara. All rights reserved.
