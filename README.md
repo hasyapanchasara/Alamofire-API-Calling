@@ -1,7 +1,7 @@
 # Alamofire-API-Calling
 Alamofire API Calling Example
 
-- Almofire pod and implementation
+- Alamofire pod and implementation
 - Swift 4
 - GLOBAL singleton class
 - API calling MVC structure
