@@ -11,7 +11,8 @@ Alamofire API Calling Example
 - Completion handler
 - Query Parameters
 - Body Parameters
-- Rechability POD and implementation
+- Reachability POD and implementation
+- Easy integration with Objective C
 
 # POD commands and guideline
 
